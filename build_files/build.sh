@@ -15,6 +15,7 @@ dnf5 -y remove plasma-workspace plasma-* kde-*
 # setup niri
 dnf5 -y install					\
 	niri						\
+	gdm							\
 	xdg-desktop-portal-gtk		\
 	xdg-desktop-portal-gnome	\
 	gnome-keyring				\
