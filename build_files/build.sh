@@ -27,6 +27,7 @@ dnf5 -y install					\
 	swayidle					\
 	swaylock					\
 	polkit-kde					\
+	xwayland-satellite
 
 systemctl enable podman.socket
 systemctl --global add-wants niri.service mako.service
