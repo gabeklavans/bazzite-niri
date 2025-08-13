@@ -22,11 +22,12 @@ dnf5 -y install					\
 	gnome-keyring				\
 	nautilus					\
 	mako						\
+	fuzzel						\
 	waybar						\
 	swayidle					\
+	swaylock					\
 	polkit-kde					\
 
 systemctl enable podman.socket
-systemctl --global add-wants niri.service waybar.service
 systemctl --global add-wants niri.service mako.service
 systemctl --global add-wants niri.service swayidle.service
