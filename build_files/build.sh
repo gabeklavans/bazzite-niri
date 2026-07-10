@@ -33,4 +33,5 @@ dnf5 -y install					\
 systemctl enable podman.socket
 systemctl --global add-wants niri.service mako.service
 systemctl --global add-wants niri.service swayidle.service
+systemctl --global add-wants niri.service swaybg.service
 systemctl --global add-wants niri.service plasma-polkit-agent.service
